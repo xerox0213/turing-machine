@@ -1,9 +1,12 @@
 # Turing Machine - Java Recreation
 
-### Description
+## Description
 This project is a recreation of the **Turing Machine** board game in Java. Players must solve logical problems using **verifiers** to test different hypotheses. This version includes the first **16 problems** from the original game, along with additional features such as **undo/redo** functionality. Each problem has an associated level of **difficulty** and **luck**, and players can either select a specific problem or let the computer randomly choose one.
 
-### Features
+## Game Rules
+This project follows the original rules of the **Turing Machine** board game. For a complete overview of the rules, please refer to [this link](https://cdn.1j1ju.com/medias/a6/12/e4-turing-machine-rulebook.pdf).
+
+## Features
 - Faithful implementation of the first 16 problems from the Turing Machine game.
 - Verifiers that use the same validation criteria as in the original game.
 - Graphical interface built with **JavaFX**.
@@ -14,12 +17,12 @@ This project is a recreation of the **Turing Machine** board game in Java. Playe
   - If the player guesses the correct code, they win.
   - If the player guesses incorrectly, they lose.
 
-### Requirements
+## Requirements
 - **Java 21** or later.
 - **Maven** for dependency management.
 - **JavaFX** for the graphical user interface.
 
-### Installation
+## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/xerox0213/turing-machine.git
@@ -33,7 +36,7 @@ This project is a recreation of the **Turing Machine** board game in Java. Playe
    mvn clean javafx:run
    ```
 
-### Usage
+## Usage
 - Launch the game through the graphical interface.
 - The player can choose a problem from the 16 available or let the computer randomly select one.
 - Each problem is associated with a difficulty and luck level.
@@ -41,5 +44,5 @@ This project is a recreation of the **Turing Machine** board game in Java. Playe
 - The **undo** and **redo** features allow players to reverse or replay previous actions.
 - The game ends when the player successfully guesses the correct code or fails.
 
-### Game Rules
-This project follows the original rules of the **Turing Machine** board game. For a complete overview of the rules, please refer to [this link](https://cdn.1j1ju.com/medias/a6/12/e4-turing-machine-rulebook.pdf).
+## Contributors
+Developped by Nasreddine (myself).
